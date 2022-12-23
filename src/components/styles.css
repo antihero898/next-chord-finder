@@ -1,0 +1,51 @@
+.piano-wrapper {
+  transition: width 500ms ease;
+}
+
+.piano-selection-wrapper {
+  width: 500px;
+}
+
+.is-hovering {
+  border: 1px solid;
+  border-color: white;
+  transition: border-color 750ms ease;
+}
+
+.is-not-hovering {
+  border: 1px solid;
+  border-color: gray;
+  transition: border-color 750ms ease;
+}
+
+.is-hovering-text {
+  color: white;
+  transition: color 1000ms ease;
+}
+
+.is-not-hovering-text {
+
+  color: gray;
+  transition: color 1000ms ease;
+}
+
+.is-selected {
+  color: white;
+  border-color: white;
+}
+
+.piano-wrapper {
+  height: 400px;
+}
+
+.piano-small {
+  width: 750px;
+}
+
+.piano-medium {
+  width: 1000px;
+}
+
+.piano-large {
+  width: 1250px;
+}
